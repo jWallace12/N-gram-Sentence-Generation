@@ -237,8 +237,8 @@ def genModel(ngramDict):
 def main():
 
     #Preprocess the train file
-    train = processText(open("train.txt").read())
-    test = open("test.txt").read()
+    train = processText(open("data/train.txt").read())
+    test = open("data/test.txt").read()
     trainWords = train.split()
     testWords = test.split()
 
